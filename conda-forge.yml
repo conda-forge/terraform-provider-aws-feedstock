@@ -1,5 +1,7 @@
 provider:
   win: azure
+azure:
+    free_disk_space: true
 bot:
   automerge: true
 conda_forge_output_validation: true
