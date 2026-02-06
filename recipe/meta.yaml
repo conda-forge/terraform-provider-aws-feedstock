@@ -16,7 +16,7 @@ source:
   sha256: bdae0335e518514d99d4822effe1b3e4b44ef5fa0e34e10efb29710554d098ee
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
   script:
     - go build -v -o {{ target_gobin }}..{{ os.sep }}{{ plugin_dir }}{{ os.sep }}{{ target_goos }}_{{ target_goarch }}{{ os.sep }}{{ x4_plugin }}{{ target_goexe }}
