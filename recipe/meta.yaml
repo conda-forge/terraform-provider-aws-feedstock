@@ -1,6 +1,6 @@
 {% set provider = "aws" %}
 {% set goname = "github.com/hashicorp/terraform-provider-"+provider.lower() %}
-{% set version = "6.65.0" %}
+{% set version = "6.66.0" %}
 
 {% set name = goname.split('/')[-1] %}
 
@@ -13,7 +13,7 @@ package:
 
 source:
   url: https://{{ goname }}/archive/v{{ version }}.tar.gz
-  sha256: 96667bf307fbb915549d05f1e4a8da38c3d21ec56631ecee1d081ded885411fe
+  sha256: a51b637eeea5e5ac1f4d12c67a3e60b5b9ebfd385140b66827e02a38bd85d787
 
 build:
   number: 0
